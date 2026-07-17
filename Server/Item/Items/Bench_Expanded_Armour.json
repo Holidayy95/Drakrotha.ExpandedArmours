@@ -1,0 +1,222 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bench_Expanded_Armour.name",
+    "Description": "server.items.Bench_Expanded_Armour.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Expanded_Armour.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Quality": "Rare",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Expanded_Armor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Expanded_Armor_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Armory",
+    "Light": {
+      "Color": "#000"
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "CraftCompleted": {
+          "Looping": true
+        },
+        "CraftCompletedInstant": {},
+        "Tier2": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Benches/Expanded_Armor2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Expanded_Armor_Texture.png"
+            }
+          ],
+          "Material": "Solid"
+        },
+        "Tier3": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Benches/Expanded_Armor3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Expanded_Armor_Texture.png"
+            }
+          ],
+          "Material": "Solid"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "Id": "Expanded_Armor_Bench",
+      "LocalOpenSoundEventId": "SFX_Armour_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Armour_Bench_Close",
+      "CompletedSoundEventId": "SFX_Armour_Bench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Copper",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Ingredient_Bone_Fragment",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Ingredient_Leather_Medium",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Wood_Azure_Trunk",
+                "Quantity": 100
+              }
+            ],
+            "TimeSeconds": 2
+          }
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Thorium",
+                "Quantity": 25
+              },
+              {
+                "ItemId": "Ingredient_Bar_Cobalt",
+                "Quantity": 25
+              },
+              {
+                "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+                "Quantity": 40
+              },
+              {
+                "ItemId": "Ingredient_Chitin_Sturdy",
+                "Quantity": 40
+              },
+              {
+                "ItemId": "Ingredient_Voidheart",
+                "Quantity": 3
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "CraftingTimeReductionModifier": 0.15
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3
+        }
+      ],
+      "Categories": [
+        {
+          "Id": "Expanded_Armor_Head",
+          "Icon": "Icons/CraftingCategories/Armory/DiamondHead.png",
+          "Name": "server.benchCategories.expandedhead"
+        },
+        {
+          "Id": "Expanded_Armor_Chest",
+          "Icon": "Icons/CraftingCategories/Armory/DiamondChest.png",
+          "Name": "server.benchCategories.expandedchest"
+        },
+        {
+          "Id": "Expanded_Armor_Hands",
+          "Icon": "Icons/CraftingCategories/Armory/DiamondHands.png",
+          "Name": "server.benchCategories.expandedhands"
+        },
+        {
+          "Id": "Expanded_Armor_Legs",
+          "Icon": "Icons/CraftingCategories/Armory/DiamondLegs.png",
+          "Name": "server.benchCategories.expandedlegs"
+        },
+        {
+          "Id": "Expanded_Weapon_Equipment",
+          "Icon": "Icons/CraftingCategories/Armory/DiamondShield.png",
+          "Name": "server.benchCategories.expandedequipment"
+        }
+      ]
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.34,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      17,
+      -18
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Rock_Slate_Cobble",
+        "Quantity": 70
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 3
+      }
+    ],
+    "TimeSeconds": 6
+  },
+  "ItemLevel": 12
+}

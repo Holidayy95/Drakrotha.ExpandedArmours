@@ -1,0 +1,107 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armour_Diamond_Chest.name"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Quality": "Legendary2",
+  "ItemLevel": 45,
+  "Icon": "Icons/ItemsGenerated/Armor_Diamond_Chest.png",
+  "IconProperties": {
+    "Scale": 0.28,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3.6,
+      -59.4
+    ]
+  },
+  "Model": "Items/Armors/Diamond/Chest.blockymodel",
+  "Texture": "Items/Armors/Diamond/Chest_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Diamond_Refined",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 110
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Expanded_Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Expanded_Armor_Chest"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 5
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.22,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.22,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 28,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Target": "Max",
+          "CalculationType": "Multiplicative",
+          "Amount": 0.07
+        }
+      ],
+      "Signature": [
+        {
+          "Target": "Max",
+          "CalculationType": "Multiplicative",
+          "Amount": 0.08
+        }
+      ]
+    }
+  },
+  "MaxDurability": 240,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Diamond"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.3
+}

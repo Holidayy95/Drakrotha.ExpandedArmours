@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Weapon_Diamond_Sword",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Rock_Gem_Diamond",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Diamond_Refined",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}

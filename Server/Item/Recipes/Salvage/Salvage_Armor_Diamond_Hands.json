@@ -1,0 +1,33 @@
+{
+  "Input": [
+    {
+      "ItemId": "Armor_Diamond_Hands",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Rock_Gem_Diamond",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Diamond_Refined",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Void_Essence",
+      "Quantity": 15
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}

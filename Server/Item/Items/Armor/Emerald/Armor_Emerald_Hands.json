@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armour_Emerald_Hands.name"
+  },
+  "Parent": "Armor_Iron_Hands",
+  "Quality": "Mythic",
+  "ItemLevel": 60,
+  "Icon": "Icons/ItemsGenerated/Armor_Emerald_Hands.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      21.94,
+      45.565,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -26
+    ]
+  },
+  "Model": "Items/Armors/Emerald/Hands.blockymodel",
+  "Texture": "Items/Armors/Emerald/Hands_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Emerald_Refined",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Expanded_Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Expanded_Armor_Hands"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 6
+  },
+  "Armor": {
+    "ArmorSlot": "Hands",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Poison": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.03
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 21,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Charged": [
+        {
+          "Target": "Max",
+          "CalculationType": "Multiplicative",
+          "Amount": 0.05
+        }
+      ],
+      "Signature": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.06
+        }
+      ]
+    }
+  },
+  "MaxDurability": 210,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Adamantite"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.2
+}

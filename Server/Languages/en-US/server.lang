@@ -1,0 +1,44 @@
+# === assetEditor ===
+
+items.Armour_Diamond_Chest.name = Diamond Cuirass
+items.Armour_Diamond_Hands.name = Diamond Gauntlets
+items.Armour_Diamond_Legs.name = Diamond Greaves
+items.Armour_Diamond_Head.name = Diamond Helm
+items.Weapon_Shield_Diamond.name = Diamond Shield
+items.Weapon_Sword_Diamond.name = Diamond Sword
+items.Tool_Hatchet_Diamond.name = Diamond Hatchet
+items.Tool_Hatchet_Diamond.description = A Master crafted Diamond Hatchet, created using a valuable, rare resource.
+items.Tool_Pickaxe_Diamond.name = Diamond Pickaxe
+items.Tool_Pickaxe_Diamond.description = A Master crafted Diamond Pickaxe, created using a valuable, rare resource.
+
+items.Armour_Emerald_Chest.name = Emerald Cuirass
+items.Armour_Emerald_Hands.name = Emerald Gauntlets
+items.Armour_Emerald_Legs.name = Emerald Greaves
+items.Armour_Emerald_Head.name = Emerald Crown
+items.Weapon_Shield_Emerald.name = Emerald Shield
+items.Weapon_Sword_Emerald.name = Emerald Sword
+items.Tool_Hatchet_Emerald.name = Emerald Hatchet
+items.Tool_Hatchet_Emerald.description = A Master crafted Emerald Hatchet, created using a valuable, rare resource.
+items.Tool_Pickaxe_Emerald.name = Emerald Pickaxe
+items.Tool_Pickaxe_Emerald.description = A Master crafted Emerald Pickaxe, created using a valuable, rare resource.
+
+items.Bench_Expanded_Armour.name = Expert Armourer's Bench
+items.Bench_Expanded_Armour.description = An Armourer's Bench consisting of better tools for creation. \n\n Used to make the following rarites: \n <color is=#f1c40f>Legendary</color>\n <color is=#d35400>Mythic</color>\n <color is=#7b241c>Relic</color>\n <color is=#b3ca1f>Masterwork</color>\n <color is=#dc2367>Eternal</color>
+
+benchCategories.expandedhead = Helmets
+benchCategories.expandedchest = Chest Plates
+benchCategories.expandedhands = Greaves
+benchCategories.expandedlegs = Legs
+benchCategories.expandedequipment = Equipment
+
+
+general.qualities.Legendary = Legendary
+general.qualities.Mythic = Mythic
+general.qualities.Relic = Relic
+general.qualities.Masterwork = Masterwork
+general.qualities.Eternal = Eternal
+
+items.Ingredient_Bar_Diamond_Refined.name = Refined Diamond Ingot
+items.Ingredient_Bar_Diamond_Refined.description = A Refined Diamond used in High Tier Armour.
+items.Ingredient_Bar_Emerald_Refined.name = Refined Emerald Ingot
+items.Ingredient_Bar_Emerald_Refined.description = A Refined Emerald used in High Tier Armour.

@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armour_Diamond_Head.name"
+  },
+  "Parent": "Armor_Iron_Head",
+  "Quality": "Legendary2",
+  "ItemLevel": 45,
+  "Icon": "Icons/ItemsGenerated/Armor_Diamond_Head.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      15,
+      45,
+      15
+    ],
+    "Translation": [
+      0.6,
+      -9
+    ]
+  },
+  "Model": "Items/Armors/Diamond/Head.blockymodel",
+  "Texture": "Items/Armors/Diamond/Head_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Diamond_Refined",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 60
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Expanded_Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Expanded_Armor_Head"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.11,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.11,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 18,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Target": "Max",
+          "CalculationType": "Multiplicative",
+          "Amount": 0.04
+        }
+      ],
+      "Signature": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.05
+        }
+      ]
+    }
+  },
+  "MaxDurability": 180,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Mithril"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.3
+}

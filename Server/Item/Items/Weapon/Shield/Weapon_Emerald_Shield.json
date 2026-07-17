@@ -1,0 +1,64 @@
+{
+  "Parent": "Template_Weapon_Shield",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Shield_Emerald.name"
+  },
+  "Model": "Items/Weapons/Shield/Emerald.blockymodel",
+  "Texture": "Items/Weapons/Shield/Emerald_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Emerald_Shield.png",
+  "Quality": "Mythic",
+  "ItemLevel": 67,
+  "Recipe": {
+    "TimeSeconds": 5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Emerald_Refined",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Expanded_Weapon_Equipment"
+        ],
+        "RequiredTierLevel": 2,
+        "Id": "Expanded_Armor_Bench"
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Shield_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 28,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      318,
+      234,
+      18
+    ],
+    "Translation": [
+      -30,
+      -32
+    ]
+  }
+}

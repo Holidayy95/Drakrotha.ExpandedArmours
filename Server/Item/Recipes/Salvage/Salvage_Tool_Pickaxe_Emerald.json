@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Tool_Pickaxe_Diamond",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Emerald_Refined",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Emerald_Refined",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 2
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 3
+}

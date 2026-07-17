@@ -1,0 +1,33 @@
+{
+  "Input": [
+    {
+      "ItemId": "Armor_Emerald_Head",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Rock_Gem_Emerald",
+    "Quantity": 3
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Emerald_Refined",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 3
+    },
+    {
+      "ItemId": "Ingredient_Life_Essence",
+      "Quantity": 50
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}

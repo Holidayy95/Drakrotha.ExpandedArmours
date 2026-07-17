@@ -1,0 +1,125 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Tool_Pickaxe_Emerald.name",
+    "Description": "server.items.Tool_Pickaxe_Emerald.description"
+  },
+  "Parent": "Tool_Pickaxe_Crude",
+  "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Emerald.png",
+  "Quality": "Mythic",
+  "ItemLevel": 65,
+  "Model": "Items/Tools/Pickaxe/Emerald.blockymodel",
+  "Texture": "Items/Tools/Pickaxe/Emerald_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Emerald_Refined",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 60
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Expanded_Weapon_Equipment"
+        ],
+        "Id": "Expanded_Armor_Bench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 1.0,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 1,
+        "GatherType": "Rocks",
+        "Quality": 5
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.65,
+        "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 0.9,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 0.9,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 0.9,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 0.9,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 0.9,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 0.9,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 0.75,
+        "GatherType": "OreAdamantite",
+        "Quality": 4
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreMithril"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.15
+      }
+    ]
+  },
+  "MaxDurability": 600,
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      26,
+      -28
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Weapon_Emerald_Shield",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ore_Mithril",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Rock_Gem_Diamond",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 3
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}
