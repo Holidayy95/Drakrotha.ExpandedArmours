@@ -66,18 +66,18 @@
       "Physical": [
         {
           "Amount": 0.28,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ],
       "Projectile": [
         {
           "Amount": 0.28,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ],
       "Poison": [
         {
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.08
         }
       ]
@@ -86,13 +86,13 @@
       "Charged": [
         {
           "Target": "Max",
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.11
         }
       ],
       "Signature": [
         {
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.09
         }
       ]

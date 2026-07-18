@@ -58,13 +58,13 @@
       "Physical": [
         {
           "Amount": 0.22,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ],
       "Projectile": [
         {
           "Amount": 0.22,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ]
     },
@@ -80,14 +80,14 @@
       "Light": [
         {
           "Target": "Max",
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.07
         }
       ],
       "Signature": [
         {
           "Target": "Max",
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.08
         }
       ]

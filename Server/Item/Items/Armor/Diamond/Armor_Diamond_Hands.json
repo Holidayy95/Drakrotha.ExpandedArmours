@@ -55,13 +55,13 @@
       "Physical": [
         {
           "Amount": 0.07,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ],
       "Projectile": [
         {
           "Amount": 0.07,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ]
     },
@@ -76,13 +76,13 @@
     "DamageClassEnhancement": {
       "Light": [
         {
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.03
         }
       ],
       "Signature": [
         {
-          "CalculationType": "Multiplicative",
+          "CalculationType": "Percent",
           "Amount": 0.04
         }
       ]
